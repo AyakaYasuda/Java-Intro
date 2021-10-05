@@ -22,7 +22,7 @@ public class Main {
 		int x = 1;
 		short y = (short)x;
 		System.out.println(y);
-
+		
 	}
 
 }
