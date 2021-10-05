@@ -3,6 +3,13 @@ public class ArthmeticOperators {
 
 	public static void main(String[] args) {
 		
+		short shortNum = 12; // 16 bit
+		int result; // 32 bit
+		
+		result = shortNum / 3;
+		System.out.println("Result: " + result);
+		
+		
 		int i = 2 + 1;
 		System.out.println(i);
 		
@@ -24,6 +31,8 @@ public class ArthmeticOperators {
 		int increment = 10;
 		System.out.println("prefix: " + ++increment);
 		System.out.println("postfix: " + increment++);
+		
+		System.out.println(- 23 - 3);
 
 	}
 
